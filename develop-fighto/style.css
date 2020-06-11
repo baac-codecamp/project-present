@@ -60,3 +60,27 @@ h3 {
   color: rgb(102, 102, 102);
   text-align: center;
 }
+
+/* REWARDS SECTION */
+
+.rewards-list {
+  padding: 1px;
+  margin: 1px auto;
+  min-height: 100px;
+  width: 100%;
+}
+
+.rewards-list li {
+  text-decoration: none;
+  list-style-type: none;
+  float: left;
+  padding: 50px;
+  text-align: center;
+}
+
+.rewards-list li span {
+  font-family: tahoma;
+  font-size: 20px;
+  color: brown;
+  text-align: center;
+}
