@@ -124,6 +124,14 @@ h3 {
   width: 140px;
 }
 
+.work-send li{
+  font-family: tahoma;
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  box-shadow: unset;
+}
+
 /* ACTIVITY SECTION */
 
 .activity-list {
