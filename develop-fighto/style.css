@@ -101,3 +101,13 @@ h3 {
   color: rgb(102, 102, 102);
   width: 140px;
 }
+
+.activity-list {
+  font-family: tahoma;
+  color: #525252;
+  text-align: center;
+}
+
+.activity-list span {
+  color: #388df7;
+}
