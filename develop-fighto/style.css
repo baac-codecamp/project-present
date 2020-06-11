@@ -1,3 +1,8 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -30,6 +35,10 @@ h3 {
     font-size: 30px;
 }
 
+.wrapper-header {
+  background: #FFFFFF;
+}
+
 /* MEMBER SECTION */
 
 .member-list {
@@ -57,11 +66,16 @@ h3 {
 .member-list li p {
   font-family: tahoma;
   font-size: 14px;
-  color: rgb(102, 102, 102);
+  color: #666666;
   text-align: center;
 }
 
 /* PROJECT SECTION */
+
+.project-wrap {
+  padding: 5px;
+  background: #ececec;
+}
 
 .project-list {
   padding: 5px;
