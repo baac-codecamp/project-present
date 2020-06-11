@@ -119,15 +119,57 @@ h3 {
   width: 140px;
 }
 
+/* ACTIVITY SECTION */
+
 .activity-list {
   font-family: tahoma;
   color: #525252;
   text-align: center;
+  width: 960px;
+  margin: 0 auto;
+  height: 300px;
+  margin-bottom: 20px;
 }
 
 .activity-list span {
   color: #388df7;
 }
+
+.content-activity {
+  width: 260px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #cddaf1;
+  float: left;
+  text-align: left;
+}
+
+.content-activity span{
+  font-size: 30px;
+  color: #37365e;
+}
+
+
+.content-activity p {
+  font-size: 16px;
+  color: #272b6e;
+}
+
+
+.activity-active {
+  background-color: #3876e9;
+  font-size: 30px;
+  color: #7e7e7e;
+}
+
+
+.activity-active span {
+  background-color: #3876e9;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
 /* REWARDS SECTION */
 
 .rewards-list {
