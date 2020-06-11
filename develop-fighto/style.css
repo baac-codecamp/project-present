@@ -60,3 +60,44 @@ h3 {
   color: rgb(102, 102, 102);
   text-align: center;
 }
+
+/* PROJECT SECTION */
+
+.project-list {
+  padding: 5px;
+  margin: 10px auto;
+  min-height: 560px;
+  width: 980px;
+}
+
+.project-list li {
+  text-decoration: none;
+  list-style-type: none;
+  float: left;
+  width: 470px;
+}
+
+.project-list li .project-li-left{
+  padding: 5px;
+  float: left;
+}
+
+
+.project-list li .project-li-right{
+  padding: 5px;
+  float: left;
+}
+
+.project-list li span {
+  font-family: tahoma;
+  font-size: 20px;
+  color: rgb(47, 155, 163);
+  text-align: center;
+}
+
+.project-list li p {
+  font-family: tahoma;
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+  width: 140px;
+}
