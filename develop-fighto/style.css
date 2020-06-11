@@ -88,7 +88,7 @@ h3 {
   text-decoration: none;
   list-style-type: none;
   float: left;
-  width: 470px;
+  width: 100%;
   background: #ffffff;
   margin: 10px;
   box-shadow: 1px 2px 10px #dadada;
@@ -103,6 +103,11 @@ h3 {
 .project-list li .project-li-right{
   padding: 5px;
   float: left;
+}
+
+
+.project-list li .project-li-right a {
+  color: #333333;
 }
 
 .project-list li span {
