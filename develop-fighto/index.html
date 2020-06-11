@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="images/Fighto.jpg" style="width: 150px; height: 150px;" alt="" class="center">
-    <div><h2>เป็นธนาคารพัฒนาชนบทที่ยั่งยืน มุ่งสนับสนุนการพัฒนาเศรษฐกิจฐานราก เพื่อยกระดับคุณภาพชีวิตของคนในชนบท</h2></div>
-    <div style="padding: 20px;">
+    <div class="wrapper-header">
+        <img src="images/Fighto.jpg" style="width: 150px; height: 150px;" alt="" class="center">
+        <div><h2>เป็นธนาคารพัฒนาชนบทที่ยั่งยืน มุ่งสนับสนุนการพัฒนาเศรษฐกิจฐานราก เพื่อยกระดับคุณภาพชีวิตของคนในชนบท</h2></div>
+    </div>
+    
+    <div class="wrapper-content">
         <div><h3>Team member</h3>
             <ul class="member-list">
                 <li>
@@ -39,19 +42,33 @@
                 </li>
             </ul>
             <br/>
-            <hr>
         </div>
-        <div><h3>Project Team</h3>
+        <div class="project-wrap">
+            <h3>Project Team</h3>
             <ul class="project-list">
                 <li>
                     <div class="project-li-left">
-                        <img src="images/project-1.jpg" width="300px" />
+                        <img src="images/project-pizza.jpg" width="300px" />
                     </div>
                     <div class="project-li-right">
-                        <span>Team Website</span>
-                        <p>build team website with html css on GitHub</p>
+                        <span>PIZZA SHOP 2.0</span>
+                        <ul class="work-send">
+                            <li>
+                                <img src="images/check-icon.jpg" width="20px"/>
+                                <a href="https://wanitcht.github.io/pizza-shop/" target="_blank">Wanitch</a>
+                            </li>
+                            <li>
+                                <img src="images/check-icon.jpg" width="20px"/>
+                                <a href="https://sirtonybaac.github.io/project-lab3/" target="_blank">Siripong</a>
+                            </li>
+                            <li>
+                                <img src="images/check-icon.jpg" width="20px"/>
+                                <a href="https://kritsana17.github.io/Pizza_Shop/" target="_blank">Kritsana</a>
+                            </li>
+                        </ul>
                     </div>
                 </li>
+                <!--
                 <li>
                     <div class="project-li-left">
                         <img src="images/project-2.jpg" width="300px" />
@@ -69,16 +86,30 @@
                         <span>Hangout eat</span>
                         <p>build Hangout Eat Application</p>
                     </div>
-                </li>
+                </li>-->
             </ul>
-            <hr>
         </div>
         <div class="activity-list">
             <h3>Activity</h3>
-            <span>9 June</span> CodeCamp GITHUB <br/>
-            <span>10 June</span> CodeCamp GITHUB <br/>
-            <span>11 June</span> CodeCamp GITHUB <br/>
-            <hr>
+            <div class="content-activity">
+                <span>10 June</span>
+                <p>CodeCamp 2020 <br/>
+                    - GIT<br/>
+                    - GITHUB
+                </p>
+            </div>
+            <div class="content-activity activity-active">
+                <span>11 June</span>
+                <p>CodeCamp GITHUB <br/>
+                    - GIT<br/>
+                    - GITHUB<br/>
+                    - HTML, CSS
+            </div>
+            <div class="content-activity">
+                <span>12 June</span>
+                <p>CodeCamp GITHUB</p>
+            </div>
+            
         </div>
         <div><h3>Rewards</h3>
             <ul class="member-list">
@@ -99,12 +130,18 @@
                     <span>Programming Award</span>
                 </li>
             </ul>
-            <hr>
         </div>
-        <!--<div><h3>Link URL</h3>
-            TODO :: Nong
-            <hr>
-        </div>-->
+        <div class="wrapper-footer">
+            <div class="footer-l1">
+                copyright - BAAC Code Camp 2020
+            </div>
+            <div class="footer-l2">
+
+            </div>
+            <div class="footer-l3">
+
+            </div>
+        </div>
     </div>
 </body>
 </html>
