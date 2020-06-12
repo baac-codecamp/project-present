@@ -82,6 +82,20 @@ h3 {
   text-align: center;
 }
 
+
+.member-list li p a {
+  font-family: tahoma;
+  font-size: 14px;
+  color: #30d8a6;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #30d8a6;
+  border-radius: 18px;
+  padding: 6px 16px;
+  background: #30d8a6;
+  color: #FFFFFF;
+}
+
 /* PROJECT SECTION */
 
 .project-wrap {
