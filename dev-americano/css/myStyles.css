@@ -1,5 +1,5 @@
 html {
-  font-family: 'Kanit' !important;
+  font-family: "Kanit" !important;
 }
 
 .img-header {
@@ -20,12 +20,17 @@ html {
   text-align: center;
 }
 
-.card{
+.card {
   padding-top: 20px;
   border-radius: 10px;
   box-shadow: gray 10px 10px 20px 0px;
 }
 
-.card:hover{
+.card:hover {
   box-shadow: skyblue 5px 5px 15px 0px;
+}
+
+.card-body a {
+  width: 100%;
+  font-weight: 600;
 }
