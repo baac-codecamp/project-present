@@ -101,12 +101,13 @@ h3 {
 .project-wrap {
   padding: 5px;
   background: #ececec;
+  height: auto;
 }
 
 .project-list {
   padding: 5px;
   margin: 10px auto;
-  min-height: 560px;
+  height: 720px;
   width: 980px;
 }
 
