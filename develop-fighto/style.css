@@ -101,6 +101,9 @@ h3 {
 .project-wrap {
   padding: 5px;
   background: #ececec;
+  background: url('images/bg-wrap-project.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: auto;
 }
 
